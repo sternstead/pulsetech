@@ -1,0 +1,21 @@
+Options -MultiViews
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^about\.html$ /about/ [R=301,L]
+RewriteRule ^contact\.html$ /contact/ [R=301,L]
+RewriteRule ^faq\.html$ /faq/ [R=301,L]
+RewriteRule ^reviews\.html$ /reviews/ [R=301,L]
+RewriteRule ^areas-we-serve\.html$ /areas-we-serve/ [R=301,L]
+RewriteRule ^services/index\.html$ /services/ [R=301,L]
+RewriteRule ^blog/index\.html$ /blog/ [R=301,L]
+RewriteRule ^services/fridge-repair\.html$ /services/fridge-repair/ [R=301,L]
+RewriteRule ^services/freezer-repair\.html$ /services/freezer-repair/ [R=301,L]
+RewriteRule ^services/cooker-repair\.html$ /services/cooker-repair/ [R=301,L]
+RewriteRule ^services/washing-machine-repair\.html$ /services/washing-machine-repair/ [R=301,L]
+RewriteRule ^services/microwave-repair\.html$ /services/microwave-repair/ [R=301,L]
+RewriteRule ^services/tv-repair\.html$ /services/tv-repair/ [R=301,L]
+RewriteRule ^services/air-conditioner-repair\.html$ /services/air-conditioner-repair/ [R=301,L]
+RewriteRule ^blog/fridge-not-cooling\.html$ /blog/fridge-not-cooling/ [R=301,L]
+RewriteRule ^blog/washing-machine-not-spinning\.html$ /blog/washing-machine-not-spinning/ [R=301,L]
